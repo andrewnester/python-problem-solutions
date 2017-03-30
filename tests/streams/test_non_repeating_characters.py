@@ -11,7 +11,7 @@ from problems.streams.non_repeating_characters import get_non_repeating_characte
 ])
 def test_get_sum_of_four(test_input, expected):
     actual = get_non_repeating_characters(test_input)
-    print(actual)
+
     assert len(expected) == len(actual)
 
     for v in actual:
